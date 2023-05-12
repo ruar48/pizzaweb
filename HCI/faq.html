@@ -1,0 +1,264 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>PizzaHut Login</title>
+    <link rel="icon" type="image/x-icon" href="image/icon.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script nonce="912f90ab-711f-4b1d-b6af-4a94ce77f5dc">(function(w,d){!function(dk,dl,dm,dn){dk[dm]=dk[dm]||{};dk[dm].executed=[];dk.zaraz={deferred:[],listeners:[]};dk.zaraz.q=[];dk.zaraz._f=function(dp){return function(){var dq=Array.prototype.slice.call(arguments);dk.zaraz.q.push({m:dp,a:dq})}};for(const dr of["track","set","debug"])dk.zaraz[dr]=dk.zaraz._f(dr);dk.zaraz.init=()=>{var ds=dl.getElementsByTagName(dn)[0],dt=dl.createElement(dn),du=dl.getElementsByTagName("title")[0];du&&(dk[dm].t=dl.getElementsByTagName("title")[0].text);dk[dm].x=Math.random();dk[dm].w=dk.screen.width;dk[dm].h=dk.screen.height;dk[dm].j=dk.innerHeight;dk[dm].e=dk.innerWidth;dk[dm].l=dk.location.href;dk[dm].r=dl.referrer;dk[dm].k=dk.screen.colorDepth;dk[dm].n=dl.characterSet;dk[dm].o=(new Date).getTimezoneOffset();if(dk.dataLayer)for(const dy of Object.entries(Object.entries(dataLayer).reduce(((dz,dA)=>({...dz[1],...dA[1]})))))zaraz.set(dy[0],dy[1],{scope:"page"});dk[dm].q=[];for(;dk.zaraz.q.length;){const dB=dk.zaraz.q.shift();dk[dm].q.push(dB)}dt.defer=!0;for(const dC of[localStorage,sessionStorage])Object.keys(dC||{}).filter((dE=>dE.startsWith("_zaraz_"))).forEach((dD=>{try{dk[dm]["z_"+dD.slice(7)]=JSON.parse(dC.getItem(dD))}catch{dk[dm]["z_"+dD.slice(7)]=dC.getItem(dD)}}));dt.referrerPolicy="origin";dt.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(dk[dm])));ds.parentNode.insertBefore(dt,ds)};["complete","interactive"].includes(dl.readyState)?zaraz.init():dk.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
+<body class="img js-fullheight bg-dark" style="background-image: url();">
+    <style>
+        p{
+            color: white;
+        }
+            </style>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Menu.html">Menu<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cart.html">Cart</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Account.html">My Account</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact us</a>
+
+      </li>
+      <li>
+        <a class="nav-link" href="faq.html">Faqs</a>
+        </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><a href="Login.html">Log in</a></button>
+    </form>
+  </div>
+</nav><br><br><br>
+
+<section style="color: white; background-color: black;">
+  <div class="container py-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-10 col-xl-8 text-center">
+        <h3 class="fw-bold mb-4">Reviews</h3>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card">
+          <div class="card-body py-4 mt-2">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="image/fb1 (1).jpg"
+                class="rounded-circle shadow-1-strong" width="100" height="100" />
+            </div>
+            <h5 class="font-weight-bold text-dark">Jomar Ruar</h5>
+            <h6 class="font-weight-bold my-3 text-dark">Costumer</h6>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star-half-alt fa-sm text-info"></i>
+              </li>
+            </ul>
+            <p class="mb-2 text-dark">
+              <i class="fa fa-quote-left pe-2"></i>Napaka crunchy ng pizza at masarap!!!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card">
+          <div class="card-body py-4 mt-2">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="image/fb1 (2).jpg"
+                class="rounded-circle shadow-1-strong" width="100" height="100" />
+            </div>
+            <h5 class="font-weight-bold text-dark">Jruar</h5>
+            <h6 class="font-weight-bold my-3 text-dark">Costumer</h6>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+            </ul>
+            <p class="mb-2 text-dark">
+              <i class="fa fa-quote-left pe-2"></i>Mapapa wow ka na lang sa sarap!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-0">
+        <div class="card">
+          <div class="card-body py-4 mt-2">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="image/fb1 (3).jpg"
+                class="rounded-circle shadow-1-strong" width="100" height="100" />
+            </div>
+            <h5 class="font-weight-bold text-dark">Daniel Ruar</h5>
+            <h6 class="font-weight-bold my-3 text-dark">Costumer</h6>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-info"></i>
+              </li>
+            </ul>
+            <p class="mb-2 text-dark">
+              <i class="fa fa-quote-left pe-2"></i>Masarap ang pizza at mabilis ang delivery.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3 class="text-center mb-4 pb-2 text-primary fw-bold">FAQ</h3>
+  <p class="text-center mb-5">
+    Find the answers for the most frequently asked questions below
+  </p>
+
+  <div class="row">
+    <div class="col-md-6 col-lg-4 mb-4">
+      <h6 class="mb-3 text-primary"><i class="fa fa-paper-plane text-primary pe-2"></i> A simple
+        question?</h6>
+      <p>
+        <strong><u>Absolutely!</u></strong> We work with top payment companies which guarantees
+        your safety and
+        security. All billing information is stored on our payment processing partner.
+      </p>
+    </div>
+
+    <div class="col-md-6 col-lg-4 mb-4">
+      <h6 class="mb-3 text-primary"><i class="fa fa-pencil text-primary pe-2"></i> A question
+        that is longer then the previous one?</h6>
+      <p>
+        <strong><u>Yes, it is possible!</u></strong> You can cancel your order anytime in
+        your account. Once the order is
+        cancelled, you will not be charged.
+      </p>
+    </div>
+
+    <div class="col-md-6 col-lg-4 mb-4">
+      <h6 class="mb-3 text-primary"><i class="fa fa-user text-primary pe-2"></i> A simple
+        question?</h6>
+      <p>
+        Currently, we only offer free shipping for only order to us pizza worth of ₱1,000.
+      </p>
+    </div>
+
+    <div class="col-md-6 col-lg-4 mb-4">
+      <h6 class="mb-3 text-primary"><i class="fa fa-rocket text-primary pe-2"></i> A simple
+        question?</h6>
+      <p>
+        Yes. Go to the billing section of your dashboard and update your payment information.
+      </p>
+    </div>
+
+    <div class="col-md-6 col-lg-4 mb-4">
+      <h6 class="mb-3 text-primary"><i class="fa fa-home text-primary pe-2"></i> A simple
+        question?</h6>
+      <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for any
+        reason.</p>
+    </div>
+
+    <div class="col-md-6 col-lg-4 mb-4">
+      <h6 class="mb-3 text-primary"><i class="fa fa-book text-primary pe-2"></i> Another
+        question that is longer than usual</h6>
+      <p>
+        Of course! We’re happy to offer a free plan to anyone who wants to try our service and product.
+      </p>
+    </div>
+  </div>
+</section>
+<!--Section: FAQ-->
+<div class="container justify-content-center text-light">
+  <h3 class="text-center">Have a questioned?</h3>
+  <div class="col-lg-12">
+      <form action="" method="POST" enctype="multipart/form-data" id="form_id">
+          <div class="form-group">
+               <h5><label for="inputName">Name</label></h5>
+
+              <input type="text" name="career[name]" class="form-control" tabindex="1" placeholder="Enter your name" pattern="[a-zA-Z. ]{1,50}" required>
+          </div>
+          <div class="form-group">
+               <h5><label for="inputEmail">Email</label></h5>
+
+              <input type="email" name="career[email]" class="form-control" tabindex="2" placeholder="Enter your email address" required>
+          </div>
+          <div class="form-group">
+               <h5><label for="inputMobile">Mobile</label></h5>
+
+              <input type="tel" name="career[mobile]" class="form-control" tabindex="3" placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10" required>
+          </div>
+          <div class="form-group">
+               <h5><label for="inputMessage">Message</label></h5>
+            <textarea name="" id="" cols="30" rows="10" style="width: 100%;" placeholder="Have a question?"></textarea>
+          </div>
+          <button type="submit" name="submit" class="btn btn-primary btn-block" tabindex="5">Submit</button>
+      </form>
+  </div>
+</div>
+<!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">RUAR JOMAR</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7bf454783bea3f83","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.3.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
